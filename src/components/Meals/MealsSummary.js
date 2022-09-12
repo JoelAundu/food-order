@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./MealsSummary.module.css";
 
-const MealsSummary = () => {
+const MealsSummary = (props) => {
   return (
     <section className={style.summary}>
       <h2>Delicious Juicy Food,For You</h2>

@@ -30,7 +30,7 @@ const MEALS = [
   },
 ];
 
-const AvailableMeals = () => {
+const AvailableMeals = (props) => {
   const meals = MEALS.map((meal) => (
     <MealItem
       key={meal.id}
